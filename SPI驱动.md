@@ -3,6 +3,7 @@
 > 写入设备树，（注意要写到能够覆盖之前的属性的位置）
 
 简单，disable掉sai1以及依赖sai1的音频芯片esm8288
+```dts 
 // SPI
 // disable SAI1 and SAI1 dependence
 &sai1{
@@ -17,6 +18,7 @@
   status = "disabled";
   };
 };
+```
 # 2. 设备树开启io复用为SPI1
   
 > 写入设备树，（注意要写到能够覆盖之前的属性的位置）
