@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信协议/有线/SPI.md",
+                "file": "SPI驱动.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SPI"
+              "title": "SPI驱动"
             }
           },
           {
@@ -254,8 +254,9 @@
   },
   "active": "37c3dca47c7d9635",
   "lastOpenFiles": [
-    "image/Pasted image 20250826105031.png",
     "通信协议/有线/SPI.md",
+    "SPI驱动.md",
+    "image/Pasted image 20250826105031.png",
     "通信协议/有线/CAN.md",
     "image/Pasted image 20250826104709.png",
     "image",
@@ -281,7 +282,6 @@
     "Tool",
     "通信协议/有线/I2C.md",
     "硬件.md",
-    "未命名.md",
     "嵌入式/硬件",
     "嵌入式/软件",
     "嵌入式",
