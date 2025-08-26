@@ -3,7 +3,7 @@
 > 写入设备树，（注意要写到能够覆盖之前的属性的位置）
 
 简单，disable掉sai1以及依赖sai1的音频芯片esm8288
-```dts 
+```dts title:"disable SAI1.dts"
 // SPI
 // disable SAI1 and SAI1 dependence
 &sai1{
@@ -23,6 +23,7 @@
   
 > 写入设备树，（注意要写到能够覆盖之前的属性的位置）
 
+```c title:spi1
 // cs-gpio, use gpio to cs
 &pinctrl{
   spi1_cs0{
@@ -46,33 +47,36 @@
     spi-max-frequency = <24000000>;
   };
 };
+```
+
+
 
 # 3. spidev的开启
 
 > 直接写入内核编译时对应的deconfig
 
-
-// 不支持spidev，开启支持
+```config  title:deconfig
+// rk3506未开启spidev
+// 支持spidev，开启支持
 CONFIG_SPI_SPIDEV=y
 CONFIG_SPI_BITBANG=y
 CONFIG_SPI_ROCKCHIP=y
+```
 # 4. spidev_test工具的编译
 
 > 工具源代码在kernel里，使用交叉编译工具编译即可
 
 // 编译spidev_test工具
-forlinx@ubuntu:~/work/OK3506_Linux_Source/kernel/tools/spi$ make 
+```sh title:compile.sh
+forlinx@ubuntu:~/work/OK3506_Linux_Source/kernel/tools/spi$ 
+make 
 CC=/home/forlinx/work/toochain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc 
 LD=/home/forlinx/work/toochain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-ld
 
-forlinx@ubuntu:~/work/OK3506_Linux_Source/kernel/tools/spi$ file spidev_test
+forlinx@ubuntu:~/work/OK3506_Linux_Source/kernel/tools/spi$ 
+file spidev_test
 spidev_test: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 3.2.0, with debug_info, not stripped
-# 5.spidev_test工具的使用
+```
 
 
-
-spidev_test -D /dev/spidev1.0 -s 1000000
-spidev_test -D /dev/spidev1.0 -s 1000000 -b 8 -d 1000 -H -p 'hello'
-
-硬件线序不对
-![[PixPin_2025-08-26_14-24-24.png]]
+# 5.spidev_test具的使用
