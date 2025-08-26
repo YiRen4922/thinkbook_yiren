@@ -65,3 +65,8 @@ LD=/home/forlinx/work/toochain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/a
 
 forlinx@ubuntu:~/work/OK3506_Linux_Source/kernel/tools/spi$ file spidev_test
 spidev_test: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 3.2.0, with debug_info, not stripped
+# 5.spidev_test工具的使用
+
+
+spidev_test -D /dev/spidev1.0 -s 1000000
+spidev_test -D /dev/spidev1.0 -s 1000000 -b 8 -d 1000 -H -p 'hello'
