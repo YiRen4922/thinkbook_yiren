@@ -28,7 +28,7 @@
       "conflictResolution": "increment"
     }
   ],
-  "selectedFilenamePreset": "Keep original name",
+  "selectedFilenamePreset": "NoteName-Timestamp",
   "outputFormat": "NONE",
   "quality": 100,
   "colorDepth": 1,
@@ -103,7 +103,7 @@
       "ffmpegPreset": "medium"
     }
   ],
-  "selectedConversionPreset": "None",
+  "selectedConversionPreset": "WEBP (75, no resizing)",
   "globalPresets": [
     {
       "name": "WebP 75",
@@ -132,7 +132,7 @@
         "hideFolders": false
       }
     ],
-    "selectedLinkFormatPreset": "Default (Wikilink, Shortest)"
+    "selectedLinkFormatPreset": "Markdown, Relative"
   },
   "nonDestructiveResizeSettings": {
     "resizePresets": [
@@ -206,7 +206,7 @@
         "resizeUnits": "pixels"
       }
     ],
-    "selectedResizePreset": "Default (No Resize)"
+    "selectedResizePreset": "Fit Editor"
   },
   "resizeCursorLocation": "none",
   "dropPasteCursorLocation": "back",
