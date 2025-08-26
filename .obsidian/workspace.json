@@ -237,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5,
-    "collapsed": true
+    "width": 580.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,6 +253,7 @@
   },
   "active": "37c3dca47c7d9635",
   "lastOpenFiles": [
+    "PixPin_2025-08-26_14-24-24.png",
     "通信协议/有线/SPI.md",
     "SPI驱动.md",
     "image/Pasted image 20250826105031.png",

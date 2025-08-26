@@ -68,5 +68,9 @@ spidev_test: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamic
 # 5.spidev_test工具的使用
 
 
+
 spidev_test -D /dev/spidev1.0 -s 1000000
 spidev_test -D /dev/spidev1.0 -s 1000000 -b 8 -d 1000 -H -p 'hello'
+
+硬件线序不对
+![[PixPin_2025-08-26_14-24-24.png]]
