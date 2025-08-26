@@ -1,3 +1,7 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "image",
+  "userIgnoreFilters": [
+    "image/"
+  ]
 }
