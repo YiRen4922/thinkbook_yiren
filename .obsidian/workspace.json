@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信协议/有线/CAN.md",
+                "file": "嵌入式/硬件/NE555实例，方波，三角波.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAN"
+              "title": "NE555实例，方波，三角波"
             }
           },
           {
@@ -225,6 +225,7 @@
   "active": "a0f7e3f4a3e3e7d2",
   "lastOpenFiles": [
     "通信协议/有线/CAN.md",
+    "嵌入式/硬件/NE555实例，方波，三角波.md",
     "image/CAN-1756221370435.webp",
     "image/CAN-1756221363146.webp",
     "image/CAN-1756221355131.webp",
