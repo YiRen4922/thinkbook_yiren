@@ -1,0 +1,2 @@
+
+压控振荡器（ Voltage Controlled Oscillator）指[输出频率](https://baike.baidu.com/item/%E8%BE%93%E5%87%BA%E9%A2%91%E7%8E%87/14727758?fromModule=lemma_inlink)与输入控制电压有对应关系的振荡电路(VCO)，频率是输入信号电压的[函数](https://baike.baidu.com/item/%E5%87%BD%E6%95%B0/301912?fromModule=lemma_inlink)的振荡器VCO，振荡器的工作状态或振荡回路的元件参数受输入控制电压的控制，就可构成一个压控振荡器。
