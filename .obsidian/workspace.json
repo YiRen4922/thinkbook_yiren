@@ -8,59 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0f7e3f4a3e3e7d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/软件/FreeRTOS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FreeRTOS"
-            }
-          },
-          {
-            "id": "57c99fe50519bd70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/软件/嵌入式linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "嵌入式linux"
-            }
-          },
-          {
-            "id": "c8ce792c02b8daf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/软件/嵌入式linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "嵌入式linux"
-            }
-          },
-          {
             "id": "67dc7d063fe03d75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信协议/有线/MIPI.md",
+                "file": "嵌入式/硬件/NE555实例，方波，三角波.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIPI"
+              "title": "NE555实例，方波，三角波"
             }
           }
         ]
@@ -222,11 +180,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0f7e3f4a3e3e7d2",
+  "active": "67dc7d063fe03d75",
   "lastOpenFiles": [
-    "嵌入式/硬件/NE555实例，方波，三角波.md",
-    "嵌入式/软件/FreeRTOS.md",
     "通信协议/有线/CAN.md",
+    "image/CAN-1756309503448.webp",
+    "通信协议/有线/CSI.md",
+    "通信协议/有线/I2C.md",
+    "image/I2C-1756308159128.webp",
+    "起始.md",
+    "通信协议/有线/MIPI.md",
+    "嵌入式/软件/嵌入式linux.md",
+    "起始信号.md",
+    "嵌入式/软件/FreeRTOS.md",
+    "嵌入式/硬件/NE555实例，方波，三角波.md",
     "image/CAN-1756221370435.webp",
     "image/CAN-1756221363146.webp",
     "image/CAN-1756221355131.webp",
@@ -235,21 +201,15 @@
     "image/CAN-1756221317988.webp",
     "image/CAN-1756221296987.webp",
     "image/CAN-1756221161730.webp",
-    "image/CAN-1756221151876.webp",
-    "image/CAN-1756221102332.png",
     "未命名 1.base",
     "未命名.base",
     "未命名.canvas",
     "嵌入式/软件/驱动/SPI驱动.md",
     "嵌入式/软件/驱动",
-    "通信协议/有线/CSI.md",
-    "通信协议/有线/I2C.md",
-    "通信协议/有线/MIPI.md",
     "通信协议/有线/SPI.md",
     "通信协议/有线/v4l2.md",
     "嵌入式/软件/LVGL.md",
     "通信协议/无线",
-    "嵌入式/软件/嵌入式linux.md",
     "嵌入式/软件/Qt.md",
     "嵌入式/软件/STM32.md",
     "linux.md",
@@ -263,9 +223,6 @@
     "Tool/CMake.md",
     "image",
     "嵌入式/硬件/LM2596（LM2596S）.md",
-    "嵌入式/硬件/LM2596S.md",
-    "嵌入式/硬件/MP2307.md",
-    "嵌入式/硬件/AMS1117.md",
     "通信协议/有线",
     "通信协议/无线",
     "通信协议",
