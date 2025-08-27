@@ -25,14 +25,12 @@
             "id": "37c3dca47c7d9635",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SPI驱动.md",
-                "mode": "source",
-                "source": false
+                "file": "PixPin_2025-08-26_14-24-24.png"
               },
-              "icon": "lucide-file",
-              "title": "SPI驱动"
+              "icon": "lucide-image",
+              "title": "PixPin_2025-08-26_14-24-24"
             }
           },
           {
@@ -253,9 +251,9 @@
   },
   "active": "37c3dca47c7d9635",
   "lastOpenFiles": [
+    "SPI驱动.md",
     "PixPin_2025-08-26_14-24-24.png",
     "通信协议/有线/SPI.md",
-    "SPI驱动.md",
     "image/Pasted image 20250826105031.png",
     "通信协议/有线/CAN.md",
     "image/Pasted image 20250826104709.png",
