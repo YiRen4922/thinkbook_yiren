@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/硬件/NE555.md",
+                "file": "嵌入式/硬件/模拟电子技术.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NE555"
+              "title": "模拟电子技术"
             }
           },
           {
@@ -196,9 +196,11 @@
   },
   "active": "37c3dca47c7d9635",
   "lastOpenFiles": [
+    "嵌入式/硬件/数字电子技术.md",
+    "嵌入式/硬件/模拟电子技术.md",
+    "嵌入式/硬件/NE555.md",
     "Pasted image 20250827110743.png",
     "Pasted image 20250827110310.png",
-    "嵌入式/硬件/NE555.md",
     "Pasted image 20250827110323.png",
     "Pasted image 20250827105854.png",
     "嵌入式/软件/嵌入式linux.md",
@@ -209,7 +211,6 @@
     "Pasted image 20250827103007.png",
     "Pasted image 20250827102906.png",
     "Pasted image 20250827102500.png",
-    "Pasted image 20250827102302.png",
     "嵌入式/硬件/VCO.md",
     "debug/SPI驱动调试.md",
     "嵌入式/软件/代码风格.md",
@@ -240,7 +241,6 @@
     "嵌入式/硬件",
     "嵌入式/软件",
     "嵌入式",
-    "Web",
-    "嵌入式/软件/STM32.md"
+    "Web"
   ]
 }
