@@ -25,12 +25,14 @@
             "id": "37c3dca47c7d9635",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "PixPin_2025-08-26_14-24-24.png"
+                "file": "debug/SPI驱动调试.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "PixPin_2025-08-26_14-24-24"
+              "icon": "lucide-file",
+              "title": "SPI驱动调试"
             }
           },
           {
@@ -251,7 +253,10 @@
   },
   "active": "37c3dca47c7d9635",
   "lastOpenFiles": [
-    "SPI驱动.md",
+    "嵌入式/软件/代码风格.md",
+    "debug/SPI驱动调试.md",
+    "linux.md",
+    "debug",
     "PixPin_2025-08-26_14-24-24.png",
     "通信协议/有线/SPI.md",
     "image/Pasted image 20250826105031.png",
@@ -275,7 +280,6 @@
     "通信协议/无线",
     "通信协议",
     "嵌入式/软件/LVGL.md",
-    "linux.md",
     "嵌入式/软件/嵌入式linux.md",
     "Tool",
     "通信协议/有线/I2C.md",
@@ -284,7 +288,6 @@
     "嵌入式/软件",
     "嵌入式",
     "Web",
-    "Web/后端",
     "嵌入式/软件/STM32.md"
   ]
 }
