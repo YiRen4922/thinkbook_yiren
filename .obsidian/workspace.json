@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/硬件/VCO.md",
+                "file": "嵌入式/硬件/NE555.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VCO"
+              "title": "NE555"
             }
           },
           {
@@ -253,8 +253,13 @@
   },
   "active": "37c3dca47c7d9635",
   "lastOpenFiles": [
-    "嵌入式/硬件/NE555.md",
+    "Pasted image 20250827103007.png",
+    "Pasted image 20250827102906.png",
+    "Pasted image 20250827102500.png",
+    "Pasted image 20250827102302.png",
+    "Pasted image 20250827102011.png",
     "嵌入式/硬件/VCO.md",
+    "嵌入式/硬件/NE555.md",
     "debug/SPI驱动调试.md",
     "嵌入式/软件/代码风格.md",
     "linux.md",
