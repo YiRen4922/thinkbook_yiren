@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "CAN"
             }
-          },
-          {
-            "id": "37a3cb960a02392c",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,12 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37a3cb960a02392c",
+  "active": "67dc7d063fe03d75",
   "lastOpenFiles": [
+    "通信协议/有线/CAN.md",
     "conflict-files-obsidian-git.md",
     "multisim/NE555.md",
     "multisim",
-    "通信协议/有线/CAN.md",
     "debug/未命名.md",
     "debug/SPI驱动调试.md",
     "debug",
