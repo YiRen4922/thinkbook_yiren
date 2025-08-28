@@ -3,5 +3,8 @@
   "attachmentFolderPath": "image",
   "userIgnoreFilters": [
     "image/"
-  ]
+  ],
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "showLineNumber": true
 }

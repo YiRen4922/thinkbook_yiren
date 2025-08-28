@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "CAN"
             }
+          },
+          {
+            "id": "37a3cb960a02392c",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通信协议/有线/CAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CAN 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -180,8 +194,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67dc7d063fe03d75",
+  "active": "37a3cb960a02392c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "multisim/NE555.md",
+    "multisim",
+    "通信协议/有线/CAN.md",
+    "debug/未命名.md",
+    "debug/SPI驱动调试.md",
+    "debug",
     "嵌入式/软件/驱动/未命名.md",
     "Tool/Git.md",
     "Tool/CMake.md",
@@ -189,7 +210,6 @@
     "嵌入式/硬件/RK3568.md",
     "嵌入式/硬件/NE555实例，方波，三角波.md",
     "通信协议/无线/蓝牙.md",
-    "通信协议/有线/CAN.md",
     "image/CAN-1756309503448.webp",
     "通信协议/有线/CSI.md",
     "通信协议/有线/I2C.md",
@@ -219,15 +239,9 @@
     "嵌入式/软件/Qt.md",
     "嵌入式/软件/STM32.md",
     "linux.md",
-    "Tool/未命名.md",
-    "Tool/VS Code.md",
-    "Tool/ssh.md",
-    "Tool/nvim.md",
     "image",
     "通信协议/有线",
     "通信协议/无线",
-    "通信协议",
-    "Tool",
-    "嵌入式/硬件"
+    "通信协议"
   ]
 }
