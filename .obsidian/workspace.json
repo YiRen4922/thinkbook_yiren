@@ -73,13 +73,27 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "cd79f12795369b31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "通信协议/有线/CAN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "CAN 的大纲"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9aef3ec2dfc3dec0",
@@ -138,21 +152,6 @@
             }
           },
           {
-            "id": "cd79f12795369b31",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "通信协议/有线/CAN.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "CAN 的大纲"
-            }
-          },
-          {
             "id": "b332432a3734a358",
             "type": "leaf",
             "state": {
@@ -163,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd79f12795369b31",
+  "active": "67dc7d063fe03d75",
   "lastOpenFiles": [
     "嵌入式/软件/驱动/设备树.md",
     "嵌入式/软件/驱动/字符驱动.md",
