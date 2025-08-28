@@ -4,5 +4,7 @@
   "userIgnoreFilters": [
     "image/"
   ],
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "showLineNumber": true
 }
