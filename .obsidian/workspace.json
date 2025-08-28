@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信协议/有线/CAN.md",
+                "file": "嵌入式/软件/驱动/设备树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAN"
+              "title": "设备树"
             }
           }
         ]
@@ -80,17 +80,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通信协议/有线/CAN.md",
+                "file": "嵌入式/软件/驱动/设备树.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CAN 的大纲"
+              "title": "设备树 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd79f12795369b31",
+  "active": "b332432a3734a358",
   "lastOpenFiles": [
+    "通信协议/有线/CAN.md",
     "嵌入式/软件/驱动/设备树.md",
     "嵌入式/软件/驱动/字符驱动.md",
-    "通信协议/有线/CAN.md",
     "conflict-files-obsidian-git.md",
     "multisim/NE555.md",
     "multisim",
