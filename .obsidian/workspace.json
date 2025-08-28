@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "通信协议/有线/CAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "CAN 的大纲"
             }
           },
           {
@@ -179,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67dc7d063fe03d75",
+  "active": "b332432a3734a358",
   "lastOpenFiles": [
+    "嵌入式/软件/驱动/设备树.md",
+    "嵌入式/软件/驱动/字符驱动.md",
     "通信协议/有线/CAN.md",
     "conflict-files-obsidian-git.md",
     "multisim/NE555.md",
@@ -188,7 +191,6 @@
     "debug/未命名.md",
     "debug/SPI驱动调试.md",
     "debug",
-    "嵌入式/软件/驱动/未命名.md",
     "Tool/Git.md",
     "Tool/CMake.md",
     "嵌入式/硬件/LM2596（LM2596S）.md",
@@ -223,7 +225,6 @@
     "通信协议/无线",
     "嵌入式/软件/Qt.md",
     "嵌入式/软件/STM32.md",
-    "linux.md",
     "image",
     "通信协议/有线",
     "通信协议/无线",
