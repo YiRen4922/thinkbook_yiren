@@ -3,5 +3,6 @@
   "attachmentFolderPath": "image",
   "userIgnoreFilters": [
     "image/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

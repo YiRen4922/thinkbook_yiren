@@ -93,4 +93,4 @@ spidev_test -D /dev/spidev1.0 -s 1000000 -b 8 -d 1000 -H -p 'hello'
 
 硬件线序不对
 
-![[PixPin_2025-08-26_14-24-24.png]]
+![[PixPin_2025-08-26_14-24-24.webp]]
