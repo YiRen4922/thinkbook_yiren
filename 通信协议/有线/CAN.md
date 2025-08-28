@@ -65,3 +65,55 @@ CAN 总线具备高可靠性， 内置 CRC 校验、 错误检测与恢复机制
 # 如何使用CAN总线
 ## 设备树
 需要确保设备书中开启CAN总线设备树使能，
+## 使能内核驱动
+```Kconfig
+>Networking support
+	>CAN bus subsystem support
+		>CAN Device Drivers
+			<*>Platform CAN drivers with Netlink support
+```
+
+
+使用`ifconfig -a`命令查看所有网络设备，CAN设备节点不再/dev目录下，在网络设备下，
+## iproute2yi移植
+使用工具操作CAN接口，iproute2是linux下的TCP/IP工具。
+### 移植方法1
+1. 下载源码
+	https://www.kernel.org/pub/linux/utils/net/iproute2/ 
+	[iproute2-6.9.0.tar.gz](https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-6.9.0.tar.gz)
+	
+	下载完成后拷贝到虚拟机中
+2. 解压
+```sh
+tar -vzxf iproute2-6.9.0.tar.gz
+```
+3. 配置Makefile
+```sh
+cd iproute2-6.9.0
+./configure
+# 只需要用到ip工具，编辑MAakefile文件
+SUBIDIRS=lib ip
+# 删除SUBDIRS的其他工具
+```
+4. 交叉编译
+```sh
+Make CC=/path/to/your/cross/gcc
+```
+5. 检测架构
+```
+file ./ip/ip
+```
+编译完成后ip目录的ip命令放到开发板上就能使用了
+> 此方法使用于自定义rootfs，如busybox，buildroot有更简单的移植方法
+
+### 移植方法2
+```Kconfig
+Target packages
+	Networking applications
+		iproute2
+```
+>debian及其衍生系统，使用apt命令安装即可
+
+## canutils 工具移植
+
+
