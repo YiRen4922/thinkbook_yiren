@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d3e8b3ed943c8fe2",
+        "id": "c682eb567c723a8b",
         "type": "tabs",
         "children": [
           {
-            "id": "67dc7d063fe03d75",
+            "id": "7da534400badeede",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信协议/有线/CAN.md",
+                "file": "debug/MIPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAN"
+              "title": "MIPI"
             }
           }
         ]
@@ -73,28 +73,12 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "cd79f12795369b31",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "通信协议/有线/CAN.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "CAN 的大纲"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "9aef3ec2dfc3dec0",
@@ -153,6 +137,21 @@
             }
           },
           {
+            "id": "cd79f12795369b31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tool/未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          },
+          {
             "id": "b332432a3734a358",
             "type": "leaf",
             "state": {
@@ -163,11 +162,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 532.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,54 +181,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd79f12795369b31",
+  "active": "7da534400badeede",
   "lastOpenFiles": [
-    "嵌入式/软件/驱动/设备树.md",
-    "嵌入式/软件/驱动/字符驱动.md",
-    "通信协议/有线/CAN.md",
-    "conflict-files-obsidian-git.md",
-    "multisim/NE555.md",
-    "multisim",
-    "debug/未命名.md",
-    "debug/SPI驱动调试.md",
-    "debug",
-    "Tool/Git.md",
-    "Tool/CMake.md",
-    "嵌入式/硬件/LM2596（LM2596S）.md",
-    "嵌入式/硬件/RK3568.md",
     "嵌入式/硬件/NE555实例，方波，三角波.md",
     "通信协议/无线/蓝牙.md",
-    "image/CAN-1756309503448.webp",
-    "通信协议/有线/CSI.md",
-    "通信协议/有线/I2C.md",
-    "image/I2C-1756308159128.webp",
-    "起始.md",
+    "通信协议/无线",
+    "嵌入式/软件/驱动/设备树.md",
+    "嵌入式/软件/驱动/字符驱动.md",
+    "image/NE555实例，方波，三角波-1756370704266.webp",
+    "image/NE555实例，方波，三角波-1756370699920.webp",
+    "嵌入式/硬件/NE555.md",
+    "嵌入式/硬件/LM2596（LM2596S）.md",
+    "image/NE555实例，方波，三角波-1756353002669.webp",
+    "image/NE555实例，方波，三角波-1756352993457.webp",
+    "debug/MIPI.md",
+    "通信协议/有线/SPI.md",
     "通信协议/有线/MIPI.md",
-    "嵌入式/软件/嵌入式linux.md",
-    "起始信号.md",
-    "嵌入式/软件/FreeRTOS.md",
+    "通信协议/有线/I2C.md",
+    "通信协议/有线/CSI.md",
+    "通信协议/有线/CAN.md",
+    "multisim/NE555.md",
+    "multisim",
+    "image/Pasted image 20250827102011.webp",
+    "conflict-files-obsidian-git.md",
+    "嵌入式/软件/驱动/SPI驱动.md",
+    "嵌入式/硬件/MP2307.md",
+    "嵌入式/硬件/AMS1117.md",
+    "嵌入式/硬件/数字电子技术.md",
+    "嵌入式/硬件/模拟电子技术.md",
+    "linux.md",
+    "Tool/VS Code.md",
+    "Tool/ssh.md",
+    "Tool/nvim.md",
+    "Tool/Make.md",
+    "Tool/Git.md",
+    "Tool/CMake.md",
+    "新建文本文档.txt",
+    "嵌入式/软件/驱动",
+    "image/PixPin_2025-08-26_14-24-24.webp",
+    "image/I2C-1756308159128.webp",
+    "image/CAN-1756309503448.webp",
     "image/CAN-1756221370435.webp",
     "image/CAN-1756221363146.webp",
-    "image/CAN-1756221355131.webp",
-    "image/CAN-1756221346363.webp",
-    "image/CAN-1756221332889.webp",
-    "image/CAN-1756221317988.webp",
-    "image/CAN-1756221296987.webp",
-    "image/CAN-1756221161730.webp",
-    "未命名 1.base",
-    "未命名.base",
-    "未命名.canvas",
-    "嵌入式/软件/驱动/SPI驱动.md",
-    "嵌入式/软件/驱动",
-    "通信协议/有线/SPI.md",
-    "通信协议/有线/v4l2.md",
-    "嵌入式/软件/LVGL.md",
-    "通信协议/无线",
-    "嵌入式/软件/Qt.md",
-    "嵌入式/软件/STM32.md",
+    "debug",
     "image",
     "通信协议/有线",
-    "通信协议/无线",
-    "通信协议"
+    "通信协议",
+    "Tool",
+    "嵌入式/硬件"
   ]
 }
