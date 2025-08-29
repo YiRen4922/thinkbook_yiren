@@ -1,3 +1,18 @@
+# 剪切板
+1. 下载剪切板
+```sh
+sudo apt install xclip xsel
+```
+2. 配置nvim
+```lua config.lua
+
+if not vim.env.SSH_TTY then
+  opt.clipboard = "unnamedplus" -- 同步剪切板 和 +
+else
+  opt.clipboard = "" -- SSH 下禁用，避免报错
+end
+```
+
 
 # keymap
 
@@ -10,7 +25,7 @@
 | `<leader>sg` |                           |                 |
 | `<leader>sG` |                           |                 |
 | `<leader>sk` | search keymaps            | 查找键位映射          |
-|              |                           |                 |
+| `<leader>fc` | find config file          | 查找nvim的配置文件     |
 
 # 开发嵌入式项目kernel内核
 ``` YAML
@@ -44,3 +59,4 @@ Diagnostics:
   Suppress: [pp_including_main_file] # 避免大量 #include 报错干扰
 
 ```
+
