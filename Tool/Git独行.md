@@ -47,7 +47,7 @@ ssh: connect to host github.com port 22: Connection refused
 >2. 更换ssh端口为443
 
 
-# 使用
+# 本地使用
 
 我是用Git的目的，主要就是版本管理，也就是==让我的代码可以随时随地的到达我以前的任意版本。==
 而要达成这个目的就需要了解git（当然其他工具也行，如SVN），没有git之前我们的代码管理经常是将项目代码备份一份，比如`cp maim.c main_v1.0.c.bak`，当然这在项目规模比较小的时候，或许十分有用，但是当项目规模变得庞大，项目维护时间越来越长，这种手段就不那么优雅了，但是git出现后，版本管理这个过程变得十分的优雅，保存一个项目版本只要`git commit`，无论仓库大小，回到某个版本只要`git checkout <hash>`，这相比备份很多文件，管理命名，修改，版本等等来说，真的十分优雅。
@@ -398,21 +398,21 @@ yiren@YiRenJun:~/Project/C/git_repository$
 ```
 当你在工作区根路径放入一个.gitignore文件git会自动识别文件内容，并立即生效，比如我写的main，他就不再识别main，常用来忽略一些个人的ide设置，编译中间文件，以及可执行文件（main）等，总之就是用来忽略的，还有各种匹配规则，也有写好的模板，可自行查询，这下这期真写完了。
 
-# 常用命令
-## 获取仓库
+## 常用命令
+### 获取仓库
 仓库分为远程和本地，远程仓库在github（或其他代码托管平台），而本地仓库在自己的电脑中存储（路径中有.git文件夹的是本地仓库），可以使用`push`或`pull`命令同步两个仓库（后续会有）
-### 新建仓库
+#### 新建仓库
 在当前位置新建空仓库（Repository），新建的是本地仓库
 ```sh
 git init
 ```
-### 克隆远程仓库
+#### 克隆远程仓库
 克隆远程仓库到本地当前位置，远程仓库是唯一的，使用用户名（username）和仓库名（repository）确认
 ```sh
 git clone https://github.com/username/repository.git 
 ```
-## 本地git操作
-### 添加文件到暂存区
+### 本地git操作
+#### 添加文件到暂存区
 
 ^8367c6
 
@@ -421,7 +421,7 @@ git clone https://github.com/username/repository.git
 git add <file>  # 添加指定文件到暂存区
 git add .  # 添加当前目录所有文件到暂存区
 ```
-### 丢弃工作区修改
+#### 丢弃工作区修改
 
 ^efd3bc
 
@@ -434,7 +434,7 @@ git restore <filename>
 ```bash
 git checkout -- <filename>
 ```
-### 将文件移出暂存区
+#### 将文件移出暂存区
 
 ^06c83b
 
@@ -442,7 +442,7 @@ git checkout -- <filename>
 git rm --cached <file>
 ```
 
-### 获取提交的历史记录
+#### 获取提交的历史记录
 
 ^6af5a0
 
@@ -453,7 +453,7 @@ git log
 git log --oneline
 ```
 
-### 提交暂存区内容到git仓库
+#### 提交暂存区内容到git仓库
 
 ^78e09f
 ```sh
@@ -461,7 +461,7 @@ git commit
 git commit -m "commit comments"
 ```
 
-### 切换分支
+#### 切换分支
 `git switch <branch-name>` 切换到指定分支
 `git switch -c <branch-name>` 创建新分支并切换
 `git switch -c <branch-name> <commit_id>` 基于指定commit版本创建新分支并切换
@@ -473,3 +473,5 @@ git switch -c <new-branch-name> <commit_id>
 git switch -
 ```
 
+# 远程使用
+// todo
