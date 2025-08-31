@@ -32,8 +32,8 @@ end
 CompileFlags:
   # 1. 使用你指定的交叉编译器，让 clangd 能正确解析宏和头文件
   # 注意这里用的是 QueryDriver 而不是 Compiler，更通用
-  QueryDriver:
-    - /home/forlinx/work/OK3506_Linux_Source/prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-*
+  # QueryDriver:
+#     - /home/forlinx/work/OK3506_Linux_Source/prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-# # # gnueabihf/bin/arm-none-linux-gnueabihf-*
 
   # 2. 去掉内核里 clang 不认识的 GCC 专用参数
   Remove:
