@@ -1,9 +1,10 @@
 # 需求
 开启SPI驱动
 # 环境
-OK
+OK3506，飞凌虚拟机，飞凌SDK
 
-# 1. 设备树关闭原io复用的SAI1端口
+# 步骤
+## 1. 设备树关闭原io复用的SAI1端口
 
 > 写入设备树，（注意要写到能够覆盖之前的属性的位置）
 
@@ -24,7 +25,7 @@ OK
   };
 };
 ```
-# 2. 设备树开启io复用为SPI1
+## 2. 设备树开启io复用为SPI1
   
 > 写入设备树，（注意要写到能够覆盖之前的属性的位置）
 
@@ -56,7 +57,7 @@ OK
 
 
 
-# 3. spidev的开启
+## 3. spidev的开启
 
 > 直接写入内核编译时对应的deconfig
 
@@ -67,7 +68,7 @@ CONFIG_SPI_SPIDEV=y
 CONFIG_SPI_BITBANG=y
 CONFIG_SPI_ROCKCHIP=y
 ```
-# 4. spidev_test工具的编译
+## 4. spidev_test工具的编译
 
 > 工具源代码在kernel里，使用交叉编译工具编译即可
 
@@ -84,13 +85,14 @@ spidev_test: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamic
 ```
 
 
-# 5.spidev_test工具的使用
+## 5.spidev_test工具的使用
 
 ```sh title:test.sh
 spidev_test -D /dev/spidev1.0 -s 1000000
 spidev_test -D /dev/spidev1.0 -s 1000000 -b 8 -d 1000 -H -p 'hello'
 ```
 
-硬件线序不对
+# 问题
+## 硬件线序不对
 
 ![[PixPin_2025-08-26_14-24-24.webp]]
