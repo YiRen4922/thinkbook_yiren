@@ -1,4 +1,4 @@
-FHS（filesystem hierarch standard）文件系统层次标准
+# FHS（filesystem hierarch standard）文件系统层次标准
 - / 主层次结构的根&&整个文件系统的根目录
     - `/bin` 所有用户在单用户模式中必须具备的二进制命令文件，如 cat, ls, cp.（重要的二进制 (binary) 应用程序包含二进制文件，系统的所有用户使用的命令都在这个目录下）
     - `/boot` 启动 (boot loader) 配置文件，包含引导加载程序相关的文件，如 kernels, initrd.
@@ -43,9 +43,19 @@ FHS（filesystem hierarch standard）文件系统层次标准
             - /var/spool/mail 不建议使用的用户邮箱位置，见/var/mail
         - /var/tmp 重启时会被保存的临时数据
 
-
+# 文件链接
 链接文件
 硬链接：
 ln
 软链接：
 ln -s
+
+# 进程
+
+ps
+
+jobs
+
+fg
+
+bg
