@@ -1,0 +1,9 @@
+{
+	"id": "math-plotter",
+	"name": "Math Plotter",
+	"version": "0.1.5",
+	"minAppVersion": "1.5.0",
+	"description": "Create math graphs from a GUI. Insert plots via forms without writing plot code.",
+	"author": "Sharbel Marshi",
+	"isDesktopOnly": true
+}
