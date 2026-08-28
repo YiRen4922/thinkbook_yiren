@@ -15,5 +15,14 @@
       ],
       "key": "M"
     }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "="
+    }
   ]
 }
