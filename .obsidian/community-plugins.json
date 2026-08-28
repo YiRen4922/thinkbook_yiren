@@ -2,5 +2,6 @@
   "code-styler",
   "image-converter",
   "obsidian-git",
-  "math-plotter"
+  "math-plotter",
+  "obsidian-tikzjax"
 ]
