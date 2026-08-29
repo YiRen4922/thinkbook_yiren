@@ -150,6 +150,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -159,7 +160,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b18e4ecf02479e62",
+  "active": "ab0464d546e15f8e",
   "lastOpenFiles": [
     "考研/日记/2026-08-27.md",
     "考研/王道408/其他.md",
