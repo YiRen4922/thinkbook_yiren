@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研/王道408/操作系统/未命名.md",
+                "file": "考研/王道408/操作系统/OSTEP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "OSTEP"
             }
           }
         ]
@@ -162,7 +162,7 @@
   "active": "b18e4ecf02479e62",
   "lastOpenFiles": [
     "考研/王道408/数据结构/二、线性表/例题/判断链表B是否为链表A的连续子序列.md",
-    "考研/王道408/操作系统/未命名.md",
+    "考研/王道408/操作系统/OSTEP.md",
     "考研/王道408/数据结构/算法统计/Floyd 判圈算法（快慢指针，龟兔算法 Tortoise and Hare）.md",
     "考研/王道408/数据结构/算法统计/Boyer‑Moore 摩尔投票：计数抵消找众数.md",
     "考研/王道408/数据结构/二、线性表/例题/单链表判环.md",
