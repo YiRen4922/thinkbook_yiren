@@ -33,5 +33,21 @@
       ],
       "key": "I"
     }
+  ],
+  "obsidian-heading-shifter:increase-heading-with-subheadings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
+  ],
+  "obsidian-heading-shifter:decrease-heading-with-subheadings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
   ]
 }
