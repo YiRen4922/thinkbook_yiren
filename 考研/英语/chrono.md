@@ -1390,7 +1390,9 @@ chrono-
 
 # 二十六、最终记忆框架
 
+$$
 chrono-=time\boxed{\text{chrono-}=\text{time}}
+$$
 
 从最核心的：
 
