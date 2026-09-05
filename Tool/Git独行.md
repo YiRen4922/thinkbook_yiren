@@ -409,7 +409,7 @@ git init
 #### 克隆远程仓库
 克隆远程仓库到本地当前位置，远程仓库是唯一的，使用用户名（username）和仓库名（repository）确认
 ```sh
-git clone https://github.com/username/repository.git 
+git clone https://github.com/<username>/<repository>.git 
 ```
 ### 本地git操作
 #### 添加文件到暂存区
