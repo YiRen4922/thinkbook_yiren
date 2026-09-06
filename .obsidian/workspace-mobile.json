@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/C++/内存布局.md",
+                "file": "考研/张宇数学/泰勒展开.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "内存布局"
+              "title": "泰勒展开"
             }
           }
         ]
@@ -103,7 +103,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "考研/王道408/数据结构/二、线性表/例题/判断链表B是否为链表A的连续子序列.md",
+            "file": "考研/张宇数学/泰勒展开.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,10 +171,29 @@
   },
   "active": "b18e4ecf02479e62",
   "lastOpenFiles": [
+    "image/Screenshot_20260906_125723_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
+    "编程/C++/内存布局.md",
+    "递归与栈.md",
+    "考研/王道408/数据结构/三、栈和队列/队列应用.md",
+    "考研/王道408/数据结构/三、栈和队列/特殊矩阵的压缩存储.md",
+    "考研/王道408/数据结构/三、栈和队列/栈在表达式求值中的应用.md",
+    "考研/王道408/数据结构/三、栈和队列/栈在括号匹配中的应用.md",
+    "考研/王道408/数据结构/三、栈和队列/栈与递归.md",
+    "考研/王道408/数据结构/三、栈和队列/例题/表达式求值 · 典型例题集.md",
+    "考研/王道408/数据结构/三、栈和队列/例题/经典括号匹配.md",
+    "考研/王道408/数据结构/三、栈和队列/例题/栈容量限制下的括号匹配.md",
+    "编程/C++/左值右值引用.md",
+    "编程/C++/书籍推荐.md",
+    "电子学/电源/TP4056.md",
+    "电子学/电源/IP2312.md",
+    "电子学/电源",
+    "image/TP4056-1788586800702.webp",
+    "image/TP4056-1788586785392.webp",
+    "image/TP4056-1788586644567.webp",
+    "image/TP4056-1788586483253.webp",
     "image/Screenshot_20260905_121447_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "image/Screenshot_20260905_120509_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "编程/C++/bug.md",
-    "编程/C++/内存布局.md",
     "考研/英语/struct.md",
     "考研/英语/indicate.md",
     "考研/英语/erode.md",
@@ -186,20 +205,7 @@
     "考研/张宇数学/坐标系及其变换.md",
     "考研/张宇数学/双曲正弦、余弦、正切函数.md",
     "考研/张宇数学/函数与极限.md",
-    "考研/其他.md",
-    "编程/通信协议/网络/UDP.md",
-    "编程/通信协议/网络/TCP.md",
-    "编程/通信协议/网络/IP.md",
-    "编程/通信协议/网络/HTTP（HTTPS）.md",
-    "编程/通信协议/有线/v4l2.md",
-    "编程/通信协议/有线/SPI.md",
-    "编程/通信协议/有线/MIPI.md",
-    "编程/通信协议/有线/I2C.md",
-    "编程/通信协议/有线/CSI.md",
-    "编程/通信协议/有线/CAN.md",
-    "编程/通信协议/无线/蓝牙.md",
     "编程/通信协议/网络",
-    "编程/通信协议/未命名.md",
     "编程/通信协议/有线",
     "编程/通信协议/无线",
     "编程/通信协议",
@@ -207,16 +213,10 @@
     "编程/嵌入式/软件/应用层",
     "编程/嵌入式/硬件/运算放大器电路",
     "编程/嵌入式/软件",
-    "编程/嵌入式/硬件",
     "image/双曲正弦、余弦、正切函数-1788442483266.webp",
     "image/双曲正弦、余弦、正切函数-1788442440395.webp",
     "未命名.canvas",
     "image/Screenshot_20260903_013133_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_013054_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_012637_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_012601_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_012125_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_011800_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_011607_tv_danmaku_bili_UnitedBizDetailsActivity.jpg"
+    "image/Screenshot_20260903_013054_tv_danmaku_bili_UnitedBizDetailsActivity.jpg"
   ]
 }
