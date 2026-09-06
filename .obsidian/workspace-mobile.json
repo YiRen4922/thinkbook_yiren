@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/C++/bug.md",
+                "file": "编程/C++/内存布局.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bug"
+              "title": "内存布局"
             }
           }
         ]
@@ -144,6 +144,16 @@
           "icon": "lucide-list",
           "title": "大纲"
         }
+      },
+      {
+        "id": "f4be2f731574112f",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
     "currentTab": 0
@@ -161,51 +171,52 @@
   },
   "active": "b18e4ecf02479e62",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "image/Screenshot_20260905_121447_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
+    "image/Screenshot_20260905_120509_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "编程/C++/bug.md",
-    "编程/C++/C++.md",
-    "编程/C++/示例.md",
-    "编程/C++/声明解读，顺时针螺旋解析.md",
+    "编程/C++/内存布局.md",
+    "考研/英语/struct.md",
+    "考研/英语/indicate.md",
+    "考研/英语/erode.md",
+    "考研/英语/engage.md",
+    "考研/王道408/数据结构/算法统计/卡特兰数.md",
+    "考研/王道408/数据结构/三、栈和队列/双端队列.md",
+    "考研/张宇数学/基础/排列组合.md",
+    "考研/张宇数学/基础",
+    "考研/张宇数学/坐标系及其变换.md",
+    "考研/张宇数学/双曲正弦、余弦、正切函数.md",
+    "考研/张宇数学/函数与极限.md",
+    "考研/其他.md",
+    "编程/通信协议/网络/UDP.md",
+    "编程/通信协议/网络/TCP.md",
+    "编程/通信协议/网络/IP.md",
+    "编程/通信协议/网络/HTTP（HTTPS）.md",
+    "编程/通信协议/有线/v4l2.md",
+    "编程/通信协议/有线/SPI.md",
+    "编程/通信协议/有线/MIPI.md",
+    "编程/通信协议/有线/I2C.md",
+    "编程/通信协议/有线/CSI.md",
+    "编程/通信协议/有线/CAN.md",
+    "编程/通信协议/无线/蓝牙.md",
+    "编程/通信协议/网络",
+    "编程/通信协议/未命名.md",
+    "编程/通信协议/有线",
+    "编程/通信协议/无线",
+    "编程/通信协议",
+    "编程/嵌入式/软件/驱动",
+    "编程/嵌入式/软件/应用层",
+    "编程/嵌入式/硬件/运算放大器电路",
+    "编程/嵌入式/软件",
+    "编程/嵌入式/硬件",
+    "image/双曲正弦、余弦、正切函数-1788442483266.webp",
+    "image/双曲正弦、余弦、正切函数-1788442440395.webp",
+    "未命名.canvas",
     "image/Screenshot_20260903_013133_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "image/Screenshot_20260903_013054_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "image/Screenshot_20260903_012637_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "image/Screenshot_20260903_012601_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "image/Screenshot_20260903_012125_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "image/Screenshot_20260903_011800_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_011607_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_011303_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "考研/王道408/操作系统/OSTEP.md",
-    "image/Screenshot_20260903_010354_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_004639_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "考研/王道408/数据结构/二、线性表/例题/判断链表B是否为链表A的连续子序列.md",
-    "考研/王道408/数据结构/算法统计/Floyd 判圈算法（快慢指针，龟兔算法 Tortoise and Hare）.md",
-    "考研/王道408/数据结构/算法统计/Boyer‑Moore 摩尔投票：计数抵消找众数.md",
-    "考研/王道408/数据结构/二、线性表/例题/单链表判环.md",
-    "考研/王道408/数据结构/二、线性表/例题/2019统考真题 · 单链表重排（头插变体）.md",
-    "考研/张宇数学/数列/数列基础.md",
-    "考研/张宇数学/数列/数列及其单调性.md",
-    "考研/张宇数学/数列",
-    "考研/张宇数学/函数/弧度制.md",
-    "考研/张宇数学/函数/三角函数图像变换.md",
-    "考研/张宇数学/不等式/绝对值不等式.md",
-    "考研/张宇数学/不等式/柯西不等式.md",
-    "考研/张宇数学/不等式/不等式.md",
-    "考研/张宇数学/不等式",
-    "编程/C++/STL/Array.md",
-    "考研/张宇数学/数一大纲.md",
-    "考研/王道408/408大纲.md",
-    "考研/张宇数学/泰勒展开.md",
-    "考研/张宇数学/函数/幂指对函数.md",
-    "考研/张宇数学/对数函数.md",
-    "考研/王道408/其他.md",
-    "考研/日记/2026-08-27.md",
-    "考研/王道408",
-    "考研/王道408/计算机组成",
-    "考研/王道408/计算机网络",
-    "考研/王道408/操作系统",
-    "考研/王道408/数据结构",
-    "考研/日记",
-    "考研/英语",
-    "考研/张宇数学"
+    "image/Screenshot_20260903_011607_tv_danmaku_bili_UnitedBizDetailsActivity.jpg"
   ]
 }
