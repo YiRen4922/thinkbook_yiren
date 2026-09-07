@@ -56,7 +56,7 @@
       }
     }
   ],
-  "inputPrompt": "single-line",
+  "inputPrompt": "multi-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
   "namePastedImagesAfterNoteTitle": false,
