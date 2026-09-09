@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "泰勒展开"
             }
+          },
+          {
+            "id": "27fee17d42a4f3be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程/碎片笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "碎片笔记"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,8 +184,15 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b18e4ecf02479e62",
+  "active": "27fee17d42a4f3be",
   "lastOpenFiles": [
+    "Tool/cmake + git submodule.md",
+    "考研/英语/Don't always bully your past self.md",
+    "Tool/CMake 使用第三方库.md",
+    "考研/英语/engage.md",
+    "未命名.md",
+    "考研/英语.md",
+    "考研/张宇数学/泰勒展开.md",
     "image/Screenshot_20260906_125723_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "编程/C++/内存布局.md",
     "递归与栈.md",
@@ -197,14 +219,8 @@
     "考研/英语/struct.md",
     "考研/英语/indicate.md",
     "考研/英语/erode.md",
-    "考研/英语/engage.md",
     "考研/王道408/数据结构/算法统计/卡特兰数.md",
-    "考研/王道408/数据结构/三、栈和队列/双端队列.md",
-    "考研/张宇数学/基础/排列组合.md",
     "考研/张宇数学/基础",
-    "考研/张宇数学/坐标系及其变换.md",
-    "考研/张宇数学/双曲正弦、余弦、正切函数.md",
-    "考研/张宇数学/函数与极限.md",
     "编程/通信协议/网络",
     "编程/通信协议/有线",
     "编程/通信协议/无线",
@@ -216,7 +232,6 @@
     "image/双曲正弦、余弦、正切函数-1788442483266.webp",
     "image/双曲正弦、余弦、正切函数-1788442440395.webp",
     "未命名.canvas",
-    "image/Screenshot_20260903_013133_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260903_013054_tv_danmaku_bili_UnitedBizDetailsActivity.jpg"
+    "image/Screenshot_20260903_013133_tv_danmaku_bili_UnitedBizDetailsActivity.jpg"
   ]
 }
