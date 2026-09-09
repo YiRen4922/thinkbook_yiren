@@ -78,7 +78,7 @@
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
-    "preferredLocale": "-"
+    "preferredLocale": "zh-cn"
   },
   "buryDate": "2026-09-09",
   "buryList": [],
