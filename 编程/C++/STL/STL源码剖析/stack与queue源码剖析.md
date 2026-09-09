@@ -187,10 +187,10 @@ STL中满足条件的容器有：`deque`（默认）、`list`。
 
 ### Obsidian 双向链接建议
 
-- `[[deque源码剖析]]`：deque是stack和queue的默认底层容器
-- `[[栈的定义概念]]`：栈的ADT定义与基本操作
-- `[[队列的定义概念]]`：队列的ADT定义与基本操作
-- `[[vector源码剖析]]`：对比vector与deque的扩容差异
+- [[deque源码剖析]]：deque是stack和queue的默认底层容器
+- [[栈]]：栈的ADT定义与基本操作
+- [[队列]]：队列的ADT定义与基本操作
+- [[vector源码剖析]]：对比vector与deque的扩容差异
 
 ---
 

@@ -314,8 +314,8 @@ void clear() {
 
 ### Obsidian 双向链接建议
 
-- `[[deque源码剖析]]`：对比vector与deque的内存模型差异
-- `[[stack与queue源码剖析]]`：stack可用vector做底层，queue不可以
+- [[deque源码剖析]]：对比vector与deque的内存模型差异
+- [[stack与queue源码剖析]]：stack可用vector做底层，queue不可以
 - `[[空间配置器allocator]]`：vector内存分配依赖的底层机制
 - `[[迭代器失效]]`：vector扩容导致迭代器全部失效
 
