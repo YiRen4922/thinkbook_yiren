@@ -22,11 +22,11 @@ $$
 #### 图像（图 a）
 
 ```desmos-graph
-left=0; right=8
-bottom=0.5; top=3.2
+left=-1; right=10
+bottom=-1; top=3.2
 grid=true
 ---
-y=(1+x)^(1/x)|blue
+y=(1+x)^{\frac{1}{x}}|blue|x>0|y<e
 y=e|red|dashed
 y=1|green|dashed
 (0.05,2.68)|label:y=(1+x)^(1/x)
@@ -57,11 +57,11 @@ $$
 #### 图像（图 b）
 
 ```desmos-graph
-left=0; right=10
-bottom=0.8; top=3.2
+left=-1; right=10
+bottom=-1; top=3.2
 grid=true
 ---
-y=(1+1/x)^x|blue
+y=(1+1/x)^x|blue|x>0
 y=e|red|dashed
 y=1|green|dashed
 (0.5,2.25)|label:y=(1+1/x)^x
