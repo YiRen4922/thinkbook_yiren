@@ -58,5 +58,14 @@
       ],
       "key": "H"
     }
+  ],
+  "copilot:new-agent-chat": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
   ]
 }
