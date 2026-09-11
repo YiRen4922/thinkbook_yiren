@@ -20,7 +20,11 @@
     "multilineCardSeparator": "?",
     "multilineReversedCardSeparator": "??",
     "multilineCardEndMarker": "",
+<<<<<<< HEAD
     "enableReviewReminders": true,
+=======
+    "enableReviewReminders": false,
+>>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
     "reviewReminderIntervalMinutes": 5,
     "reviewReminderCheckOnStartup": false,
     "reviewReminderMessage": "",
@@ -48,16 +52,28 @@
     "initiallyExpandAllSubdecksInTree": true,
     "showContextInCards": true,
     "showIntervalInReviewButtons": true,
+<<<<<<< HEAD
     "flashcardHeightPercentage": 59.95550611790878,
+=======
+    "flashcardHeightPercentage": 60,
+>>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
     "flashcardWidthPercentage": 60,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardAgainText": "Again",
+<<<<<<< HEAD
     "flashcardEasyText": "Easy",
     "flashcardGoodText": "Good",
     "flashcardHardText": "Hard",
     "reviewButtonDelay": 0,
     "showDeleteButtonInCardView": true,
+=======
+    "flashcardEasyText": "简单",
+    "flashcardGoodText": "记得",
+    "flashcardHardText": "较难",
+    "reviewButtonDelay": 0,
+    "showDeleteButtonInCardView": false,
+>>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
     "showDeleteButtonInFileMenu": false,
     "openViewInNewTab": false,
     "openViewInNewTabMobile": false,
@@ -78,6 +94,7 @@
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
+<<<<<<< HEAD
     "preferredLocale": "zh-cn"
   },
   "buryDate": "2026-09-16",
@@ -101,6 +118,12 @@
     "21bf84ebf1fa6",
     "1a52f46592805b"
   ],
+=======
+    "preferredLocale": "-"
+  },
+  "buryDate": "2026-09-10",
+  "buryList": [],
+>>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
   "historyDeck": null,
   "scheduleData": {
     "version": 1,
