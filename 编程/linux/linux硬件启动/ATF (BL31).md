@@ -1,0 +1,1 @@
+- **ATF (Arm Trusted Firmware)**：RK3588 是 ARMv8-A 架构，引入了 EL3（安全特权层）。在实际启动过程中，在 U-Boot (BL33) 之前，通常还会经历 **BL31 (ATF)** 阶段。流程通常是：`BootROM -> TPL/SPL -> ATF (BL31) -> U-Boot (BL33) -> Kernel`。
