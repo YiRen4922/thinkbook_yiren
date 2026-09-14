@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"6df9a0fd9429bcc4","type":"text","text":"多叉树","x":260,"y":170,"width":110,"height":60},
+		{"id":"aa144c671c5af1f3","type":"text","text":"二叉树","x":260,"y":-160,"width":110,"height":60},
+		{"id":"a28b2d751cc399d8","type":"text","text":"堆","x":253,"y":520,"width":125,"height":60},
+		{"id":"28e8fed5d9bc4a03","type":"text","text":"最大堆","x":453,"y":460,"width":250,"height":60},
+		{"id":"4aebaea96d76d47b","type":"text","text":"最小堆","x":453,"y":580,"width":250,"height":60},
+		{"id":"a4a6ff0a5452cb8d","type":"text","text":"树","x":-280,"y":340,"width":70,"height":60},
+		{"id":"68815be5e022014d","type":"text","text":"特殊用途树","x":253,"y":880,"width":147,"height":60},
+		{"id":"0410e40900d72cf9","type":"text","text":"哈夫曼树","x":581,"y":720,"width":125,"height":60},
+		{"id":"02f56cabbbf5e878","type":"text","text":"表达式树","x":581,"y":820,"width":124,"height":60},
+		{"id":"dc1e74a20a81018c","type":"text","text":"AST","x":580,"y":940,"width":125,"height":60},
+		{"id":"eef9a4ab99eb8035","type":"text","text":"Trie 树","x":580,"y":1080,"width":125,"height":50},
+		{"id":"a4f4266caa15fe17","type":"text","text":"红黑树","x":747,"y":-90,"width":125,"height":61},
+		{"id":"b6c35dd106034713","type":"text","text":"平衡搜索树","x":453,"y":-160,"width":160,"height":60},
+		{"id":"0ec5ccdad5a6e56c","type":"text","text":"AVL 树","x":747,"y":-170,"width":125,"height":60},
+		{"id":"d3b9f74a07e9e1d3","type":"text","text":"普通 BST","x":747,"y":-250,"width":125,"height":60},
+		{"id":"ccdbfd319d67cab5","type":"text","text":"B 树","x":753,"y":115,"width":125,"height":60},
+		{"id":"7f79e1e66a4217d8","type":"text","text":"多路搜索树","x":453,"y":175,"width":160,"height":50},
+		{"id":"0a9345db466d7fb0","type":"text","text":"B+树","x":753,"y":245,"width":125,"height":50}
+	],
+	"edges":[
+		{"id":"1f6fc0aa53fd667e","fromNode":"a4a6ff0a5452cb8d","fromSide":"right","toNode":"aa144c671c5af1f3","toSide":"left"},
+		{"id":"6cc249a97ef03a9d","fromNode":"a4a6ff0a5452cb8d","fromSide":"right","toNode":"6df9a0fd9429bcc4","toSide":"left"},
+		{"id":"3c21942396799370","fromNode":"6df9a0fd9429bcc4","fromSide":"right","toNode":"7f79e1e66a4217d8","toSide":"left"},
+		{"id":"d659f1182373bf21","fromNode":"b6c35dd106034713","fromSide":"right","toNode":"0ec5ccdad5a6e56c","toSide":"left"},
+		{"id":"c8e2f748735a4ef2","fromNode":"b6c35dd106034713","fromSide":"right","toNode":"a4f4266caa15fe17","toSide":"left"},
+		{"id":"9c1f0329efc5f685","fromNode":"7f79e1e66a4217d8","fromSide":"right","toNode":"ccdbfd319d67cab5","toSide":"left"},
+		{"id":"872c03c6751b37bd","fromNode":"7f79e1e66a4217d8","fromSide":"right","toNode":"0a9345db466d7fb0","toSide":"left"},
+		{"id":"c97631c7cf07a109","fromNode":"a28b2d751cc399d8","fromSide":"right","toNode":"28e8fed5d9bc4a03","toSide":"left"},
+		{"id":"1952aae5f85caf8e","fromNode":"a28b2d751cc399d8","fromSide":"right","toNode":"4aebaea96d76d47b","toSide":"left"},
+		{"id":"4eed128e765f71e0","fromNode":"aa144c671c5af1f3","fromSide":"right","toNode":"b6c35dd106034713","toSide":"left"},
+		{"id":"03bca6c180354cbd","fromNode":"b6c35dd106034713","fromSide":"right","toNode":"d3b9f74a07e9e1d3","toSide":"left"},
+		{"id":"2bf8fea6718537e9","fromNode":"a4a6ff0a5452cb8d","fromSide":"right","toNode":"a28b2d751cc399d8","toSide":"left"},
+		{"id":"b2935d6f33569e7f","fromNode":"68815be5e022014d","fromSide":"right","toNode":"0410e40900d72cf9","toSide":"left"},
+		{"id":"207ce859164f5b28","fromNode":"68815be5e022014d","fromSide":"right","toNode":"02f56cabbbf5e878","toSide":"left"},
+		{"id":"9ecd4104c3dac9f2","fromNode":"68815be5e022014d","fromSide":"right","toNode":"dc1e74a20a81018c","toSide":"left"},
+		{"id":"cc82f4f318f71368","fromNode":"a4a6ff0a5452cb8d","fromSide":"right","toNode":"68815be5e022014d","toSide":"left"},
+		{"id":"0e0f3e7e5fbac8a9","fromNode":"68815be5e022014d","fromSide":"right","toNode":"eef9a4ab99eb8035","toSide":"left"}
+	]
+}
