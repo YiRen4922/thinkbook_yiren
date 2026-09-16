@@ -11,10 +11,14 @@
             "id": "b18e4ecf02479e62",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tool/Git独行.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Git独行"
             }
           },
           {
@@ -47,7 +51,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": true,
+            "autoReveal": false,
             "showSearch": false,
             "searchQuery": ""
           },
@@ -113,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "考研/张宇数学/极限/泰勒展开/泰勒展开与等比公式.md",
+            "file": "Tool/Git独行.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -193,9 +197,32 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "dc7e8189bc675d9a",
+  "active": "b18e4ecf02479e62",
   "lastOpenFiles": [
+    "考研/英语/阅读/9.16.md",
+    "image/shanbay_b41f3c5d-32bc-49f8-be3c-64d908ac9935_1789571295694.jpg",
+    "考研/英语/翻译/翻译.md",
+    "考研/英语/阅读/唐迟.md",
+    "考研/英语/2026-08-24.md",
+    "考研/英语/作文/王江涛.md",
+    "考研/英语/作文",
+    "购物/工具.md",
+    "考研/英语/阅读",
+    "考研/英语/词根.md",
+    "购物",
+    "编程/C++/BOOK/未命名.md",
+    "image/Screenshot_20260913_214505_com_zhihu_android_ShortContainerHostActivity.jpg",
+    "image/1789307113343.jpg",
     "考研/张宇数学/极限/泰勒展开/泰勒展开与等比公式.md",
+    "未命名 1.md",
+    "考研/王道408/数据结构/必背/BFS.md",
+    "image/Screenshot_20260912_050859_tv_danmaku_bili_StoryVideoActivity.jpg",
+    "考研/英语/翻译",
+    "考研/王道408/数据结构/考点频率.md",
+    "考研/王道408/408大纲.md",
+    "考研/王道408/数据结构/必背/归并排序.md",
+    "考研/王道408/数据结构/必背/二分查找.md",
+    "考研/王道408/操作系统/递归与栈.md",
     "考研/张宇数学/极限/泰勒展开/超实数.md",
     "考研/张宇数学/极限/泰勒展开/牛顿迭代法.md",
     "考研/张宇数学/极限/泰勒展开/泰勒展开.md",
@@ -205,42 +232,18 @@
     "编程/碎片笔记.md",
     "Tool/cmake + git submodule.md",
     "考研/英语/Don't always bully your past self.md",
-    "Tool/CMake 使用第三方库.md",
-    "考研/英语/engage.md",
-    "考研/英语.md",
-    "考研/张宇数学/泰勒展开.md",
     "image/Screenshot_20260906_125723_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "编程/C++/内存布局.md",
-    "递归与栈.md",
-    "考研/王道408/数据结构/三、栈和队列/队列应用.md",
-    "考研/王道408/数据结构/三、栈和队列/特殊矩阵的压缩存储.md",
-    "考研/王道408/数据结构/三、栈和队列/栈在表达式求值中的应用.md",
-    "考研/王道408/数据结构/三、栈和队列/栈在括号匹配中的应用.md",
-    "考研/王道408/数据结构/三、栈和队列/栈与递归.md",
-    "考研/王道408/数据结构/三、栈和队列/例题/表达式求值 · 典型例题集.md",
-    "考研/王道408/数据结构/三、栈和队列/例题/经典括号匹配.md",
-    "考研/王道408/数据结构/三、栈和队列/例题/栈容量限制下的括号匹配.md",
-    "编程/C++/左值右值引用.md",
-    "编程/C++/书籍推荐.md",
     "电子学/电源",
     "image/TP4056-1788586800702.webp",
     "image/TP4056-1788586785392.webp",
     "image/TP4056-1788586644567.webp",
     "image/TP4056-1788586483253.webp",
     "image/Screenshot_20260905_121447_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
-    "image/Screenshot_20260905_120509_tv_danmaku_bili_UnitedBizDetailsActivity.jpg",
     "考研/张宇数学/基础",
     "编程/通信协议/网络",
     "编程/通信协议/有线",
     "编程/通信协议/无线",
     "编程/通信协议",
-    "编程/嵌入式/软件/驱动",
-    "编程/嵌入式/软件/应用层",
-    "编程/嵌入式/硬件/运算放大器电路",
-    "编程/嵌入式/软件",
-    "image/双曲正弦、余弦、正切函数-1788442483266.webp",
-    "image/双曲正弦、余弦、正切函数-1788442440395.webp",
-    "未命名.canvas",
-    "image/Screenshot_20260903_013133_tv_danmaku_bili_UnitedBizDetailsActivity.jpg"
+    "未命名.canvas"
   ]
 }
