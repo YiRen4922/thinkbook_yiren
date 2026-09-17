@@ -69,7 +69,7 @@
 
 - `rmdir test` 删除空目录
 
-6. **rm**
+1. **rm**
 
 - `rm file.txt` 删除文件
 - `rm -r dir` 递归删除目录
