@@ -9,14 +9,14 @@ tags:
   - copilot-conversation
 ---
 
-**user**: [[数列极限]] 添加数列极限的flashcards
+**user**: [[flashcards/数学/数列极限]] 添加数列极限的flashcards
 [Timestamp: 2026/09/17 14:42:50]
 
 **ai**: 
 
 The file is empty. Let me check how other flashcards in your vault are formatted first.Let me look at existing math flashcard notes to match the format.Let me check for related notes on 数列极限 in the vault to align content with the user's existing notes.There are rich source notes for this topic. Let me read them to build accurate flashcards.The template and existing notes give me everything I need. The file is empty, and there's rich source material in the vault — I'll build a comprehensive deck for 数列极限 following your template conventions (no `<!--SR-->` comments, `::`/`:::` for single-line, `?` for multi-line, `==...==` cloze).The file was written. However, I noticed I used a single `:` separator on two cards, but your template specifies single-line cards must use `::`. Let me fix those.
 
-文件格式完整，所有卡片格式正确。写入的 [[数列极限]] flashcards 共十个章节、约 40 张卡片：
+文件格式完整，所有卡片格式正确。写入的 [[flashcards/数学/数列极限]] flashcards 共十个章节、约 40 张卡片：
 
 | 章节 | 内容 | 格式 |
 |---|---|---|
@@ -177,10 +177,10 @@ $$
 你提供的内容中有一个有趣的点需要注意：题目里用的是 $\left(1+\frac{1}{n}\right)^n - e$（**底数是 $1+\frac{1}{n}$**），所以直接令 $x = \frac{1}{n}$ 就能套用公式。但如果题目换成 $\left(1+\frac{1}{x}\right)^x - e$ 这种底数含 $x$ 的形式，本质是一样的，都是"第二重要极限 + 一阶修正"。如果需要，我可以在公式卡片里补充这个变体。
 [Timestamp: 2026/09/17 17:31:33]
 
-**user**: [[放缩]] 添加YAML头标签
+**user**: [[重要不等式放缩]] 添加YAML头标签
 [Timestamp: 2026/09/17 18:24:46]
 
-**ai**: 检查一下添加后的效果：已为 [[放缩]] 添加 YAML 头标签，与仓库中其他数学 flashcard 文件保持一致：
+**ai**: 检查一下添加后的效果：已为 [[重要不等式放缩]] 添加 YAML 头标签，与仓库中其他数学 flashcard 文件保持一致：
 
 | 标签 | 说明 |
 |---|---|
@@ -190,5 +190,5 @@ $$
 | `数学/放缩` | 分类：本文件专属主题 |
 | `Date: Thu Sep 17 2026` | 创建日期 |
 
-现在该文件会被插件识别为数学卡组的一部分，与其他卡片（[[极限]]、[[等价无穷小]]、[[数列极限]]）一起复习。如果之后需要调整卡组归属（比如改为 408 卡组或其他分类），直接改这几个标签即可。
+现在该文件会被插件识别为数学卡组的一部分，与其他卡片（[[极限]]、[[等价无穷小]]、[[flashcards/数学/数列极限]]）一起复习。如果之后需要调整卡组归属（比如改为 408 卡组或其他分类），直接改这几个标签即可。
 [Timestamp: 2026/09/17 18:24:46]
