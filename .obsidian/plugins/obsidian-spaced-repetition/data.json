@@ -20,11 +20,7 @@
     "multilineCardSeparator": "?",
     "multilineReversedCardSeparator": "??",
     "multilineCardEndMarker": "",
-<<<<<<< HEAD
     "enableReviewReminders": true,
-=======
-    "enableReviewReminders": false,
->>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
     "reviewReminderIntervalMinutes": 5,
     "reviewReminderCheckOnStartup": false,
     "reviewReminderMessage": "",
@@ -52,28 +48,16 @@
     "initiallyExpandAllSubdecksInTree": true,
     "showContextInCards": true,
     "showIntervalInReviewButtons": true,
-<<<<<<< HEAD
     "flashcardHeightPercentage": 59.95550611790878,
-=======
-    "flashcardHeightPercentage": 60,
->>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
     "flashcardWidthPercentage": 60,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardAgainText": "Again",
-<<<<<<< HEAD
     "flashcardEasyText": "Easy",
     "flashcardGoodText": "Good",
     "flashcardHardText": "Hard",
     "reviewButtonDelay": 0,
     "showDeleteButtonInCardView": true,
-=======
-    "flashcardEasyText": "简单",
-    "flashcardGoodText": "记得",
-    "flashcardHardText": "较难",
-    "reviewButtonDelay": 0,
-    "showDeleteButtonInCardView": false,
->>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
     "showDeleteButtonInFileMenu": false,
     "openViewInNewTab": false,
     "openViewInNewTabMobile": false,
@@ -94,36 +78,12 @@
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
-<<<<<<< HEAD
     "preferredLocale": "zh-cn"
   },
-  "buryDate": "2026-09-16",
+  "buryDate": "2026-09-17",
   "buryList": [
-    "199b6cc37a95f",
-    "4d712a5f78c62",
-    "ba7e7aa3a3793",
-    "1d32128bb24a62",
-    "15cd06532fecdb",
-    "4f672b0638e6f",
-    "1bdf85291f8469",
-    "13fa635e5e833a",
-    "1e8c6b5278a06a",
-    "f6d6f74588665",
-    "71ea48ab96e01",
-    "a020697e402d5",
-    "1cafdb683b71a5",
-    "87424e30c9564",
-    "1fcaf5fe2c7562",
-    "17982edfdf2569",
-    "21bf84ebf1fa6",
-    "1a52f46592805b"
+    "ba7e7aa3a3793"
   ],
-=======
-    "preferredLocale": "-"
-  },
-  "buryDate": "2026-09-16",
-  "buryList": [],
->>>>>>> 4dc08f1 (Last Sync: 2026-09-11 16:38 (Mobile))
   "historyDeck": null,
   "scheduleData": {
     "version": 1,
