@@ -54,7 +54,6 @@ $\text{next}[1] = 0$。当 $j$ 变为 0 时表示：主串指针后移一位、$
 ### 三、代码实现
 
 请写出求 next 数组的代码。
-?
 ```c
 void GetNext(SString T, int next[]) {
     int i = 1, j = 0;
@@ -69,10 +68,9 @@ void GetNext(SString T, int next[]) {
     }
 }
 ```
-<!--SR:!2026-09-17,4,210-->
+
 
 请写出 KMP 匹配算法的代码。
-?
 ```c
 int Index_KMP(SString S, SString T, int next[]) {
     int i = 1, j = 1;
@@ -89,7 +87,6 @@ int Index_KMP(SString S, SString T, int next[]) {
         return 0;                 // 匹配失败
 }
 ```
-<!--SR:2026-09-17,4,210-->
 
 ### 四、时间复杂度
 
@@ -119,5 +116,5 @@ KMP 算法在 408 中的常考点有哪些？
 - KMP 匹配过程模拟（给主串、模式串，问比较次数或移动过程）
 - 与朴素算法的复杂度对比
 - 主串指针不回溯的正确性论证
-<!--SR:!2026-09-17,4,210-->
+<!--SR:!2026-09-27,9,210-->
 
