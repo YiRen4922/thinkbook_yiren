@@ -87,7 +87,7 @@ $$
 \lim_{x\to x_0} f(x)=0 \iff \lim_{x\to x_0}|f(x)|=0
 $$
 证明：由夹逼准则，$-|f(x)|\le f(x)\le |f(x)|$，两边极限均为0，故中间 $f(x)\to0$。
-<!--SR:!2026-09-19,1,230-->
+<!--SR:!2026-09-20,1,210-->
 
 ### 六、无穷小的比较
 
@@ -102,7 +102,7 @@ $$\lim \frac{\beta}{\alpha} = 0 \implies \beta = o(\alpha)$$
 ?
 $$\lim \frac{\beta}{\alpha} = C \neq 0 \implies \beta \sim C\alpha$$
 特别地，当 $C = 1$ 时称 $\beta$ 与 $\alpha$ **等价**，记 $\beta \sim \alpha$。
-<!--SR:!2026-09-19,5,230-->
+<!--SR:!2026-10-02,13,230-->
 
 
 等价无穷小替换的使用条件是什么？
