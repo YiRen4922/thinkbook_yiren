@@ -37,7 +37,7 @@ The file is empty. Let me check how other flashcards in your vault are formatted
 **user**: [[极限]] 极限中的常用等价无穷小，新开一个文件，方便我寻找并添加修改
 [Timestamp: 2026/09/17 17:10:38]
 
-**ai**: 已成功创建新的 flashcard 文件：**[[flashcards/数学/等价无穷小]]**，专门用于存储和管理常用等价无穷小的相关内容。
+**ai**: 已成功创建新的 flashcard 文件：**[[等价无穷小card]]**，专门用于存储和管理常用等价无穷小的相关内容。
 
 ## 文件内容概览
 
@@ -70,7 +70,7 @@ The file is empty. Let me check how other flashcards in your vault are formatted
 ## 文件特点
 - 格式与现有 flashcard 文件完全一致
 - 包含完整的 `<!--SR:...-->` 标签用于间隔重复
-- 添加了相关笔记链接（[[极限]]、[[泰勒展开]]、[[麦克劳林公式]]）
+- 添加了相关笔记链接（[[极限]]、[[泰勒展开card]]、[[麦克劳林公式card]]）
 - 便于后续修改和扩展
 
 您可以直接在 Obsidian 中打开此文件进行复习和编辑。
@@ -150,10 +150,10 @@ $$
 $$
 3. 变量替换：离散数列极限 $n\to\infty$，换成连续变量 $x=\frac1n\to0^+$，就可以用泰勒。
 
-将这个等价无穷小添加进 [[等价无穷小]]
+将这个等价无穷小添加进 [[等价无穷小card]]
 [Timestamp: 2026/09/17 17:31:33]
 
-**ai**: Now let me add the related exam problem as a card too, since it demonstrates the application of this formula:That edit was a mistake — it removed the answer block. Let me check the file and fix it.I need to restore the removed answer and header. Let me fix this:Now let me add a cloze card for the new formula in the 挖空 section, and then verify the final result:已将 $(1+x)^{\frac{1}{x}} - e \sim -\dfrac{e}{2}x$ 这个等价无穷小公式添加进 [[等价无穷小]]，共新增了 3 处内容：
+**ai**: Now let me add the related exam problem as a card too, since it demonstrates the application of this formula:That edit was a mistake — it removed the answer block. Let me check the file and fix it.I need to restore the removed answer and header. Let me fix this:Now let me add a cloze card for the new formula in the 挖空 section, and then verify the final result:已将 $(1+x)^{\frac{1}{x}} - e \sim -\dfrac{e}{2}x$ 这个等价无穷小公式添加进 [[等价无穷小card]]，共新增了 3 处内容：
 
 ## 新增内容
 
@@ -177,10 +177,10 @@ $$
 你提供的内容中有一个有趣的点需要注意：题目里用的是 $\left(1+\frac{1}{n}\right)^n - e$（**底数是 $1+\frac{1}{n}$**），所以直接令 $x = \frac{1}{n}$ 就能套用公式。但如果题目换成 $\left(1+\frac{1}{x}\right)^x - e$ 这种底数含 $x$ 的形式，本质是一样的，都是"第二重要极限 + 一阶修正"。如果需要，我可以在公式卡片里补充这个变体。
 [Timestamp: 2026/09/17 17:31:33]
 
-**user**: [[重要不等式放缩]] 添加YAML头标签
+**user**: [[重要不等式放缩card]] 添加YAML头标签
 [Timestamp: 2026/09/17 18:24:46]
 
-**ai**: 检查一下添加后的效果：已为 [[重要不等式放缩]] 添加 YAML 头标签，与仓库中其他数学 flashcard 文件保持一致：
+**ai**: 检查一下添加后的效果：已为 [[重要不等式放缩card]] 添加 YAML 头标签，与仓库中其他数学 flashcard 文件保持一致：
 
 | 标签 | 说明 |
 |---|---|
@@ -190,5 +190,5 @@ $$
 | `数学/放缩` | 分类：本文件专属主题 |
 | `Date: Thu Sep 17 2026` | 创建日期 |
 
-现在该文件会被插件识别为数学卡组的一部分，与其他卡片（[[极限]]、[[等价无穷小]]、[[flashcards/数学/数列极限]]）一起复习。如果之后需要调整卡组归属（比如改为 408 卡组或其他分类），直接改这几个标签即可。
+现在该文件会被插件识别为数学卡组的一部分，与其他卡片（[[极限]]、[[等价无穷小card]]、[[flashcards/数学/数列极限]]）一起复习。如果之后需要调整卡组归属（比如改为 408 卡组或其他分类），直接改这几个标签即可。
 [Timestamp: 2026/09/17 18:24:46]

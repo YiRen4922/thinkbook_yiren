@@ -24,7 +24,6 @@ Date: Fri Sep 11 2026
 ### 三、代码实现
 
 请写出求 nextval 数组的代码。
-?
 ```c
 void GetNextval(SString T, int nextval[]) {
     int i = 1, j = 0;
@@ -45,7 +44,6 @@ void GetNextval(SString T, int nextval[]) {
 <!--SR:!2026-09-17,4,210-->
 
 `get_nextval` 与 `get_next` 代码的差异在哪三处？
-?
 ① 成功分支中多 `if (T.ch[i] != T.ch[j])` 判断；
 ② 字符相同时取 `nextval[j]`；
 ③ 失配回退用 `j = nextval[j]`。
