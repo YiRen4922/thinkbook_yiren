@@ -11,7 +11,7 @@ Date: Fri Sep 18 2026
 ?
 $x_n \le x_{n+1} \le a \implies \lim_{n\to\infty} x_n$ 存在；
 $a \le x_{n+1} \le x_n \implies \lim_{n\to\infty} x_n$ 存在。
-<!--SR:!2026-09-20,1,210-->
+<!--SR:!2026-09-22,2,210-->
 	
 证明数列单调性的作差法与作商法是什么？
 ?
@@ -49,7 +49,7 @@ $a \le x_{n+1} \le x_n \implies \lim_{n\to\infty} x_n$ 存在。
 ?
 $$\lim_{x\to x_0} f(x) = A \iff \forall \{x_n\} \to x_0\ (x_n \neq x_0),\ \lim_{n\to\infty} f(x_n) = A$$
 即：函数极限存在 ⟺ 任何趋于 $x_0$ 的数列，对应的函数值数列都收敛于**同一值**。
-<!--SR:!2026-09-20,1,210-->
+<!--SR:!2026-09-22,2,210-->
 
 
 海涅定理的第一个用途是什么？
