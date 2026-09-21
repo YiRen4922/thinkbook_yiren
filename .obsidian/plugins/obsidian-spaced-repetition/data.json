@@ -80,13 +80,8 @@
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
     "preferredLocale": "zh-cn"
   },
-  "buryDate": "2026-09-20",
-  "buryList": [
-    "13fa635e5e833a",
-    "199434e34b0263",
-    "71ea48ab96e01",
-    "1da2cb1b9ed8c2"
-  ],
+  "buryDate": "2026-09-22",
+  "buryList": [],
   "historyDeck": null,
   "scheduleData": {
     "version": 1,

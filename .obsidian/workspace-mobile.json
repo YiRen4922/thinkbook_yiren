@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/C++/学习资料.md",
+                "file": "other/异色.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习资料"
+              "title": "异色"
             }
           },
           {
@@ -200,8 +200,9 @@
   },
   "active": "b18e4ecf02479e62",
   "lastOpenFiles": [
-    "考研/张宇数学/例题/例题1.36 求 1的无穷次方型 的极限，多种方法.md",
     "编程/C++/学习资料.md",
+    "other/异色.md",
+    "考研/张宇数学/例题/例题1.36 求 1的无穷次方型 的极限，多种方法.md",
     "BOOK/Effective Modern C++ (Scott Meyers).pdf",
     "考研/王道408/数据结构/6、图/2、图的存储结构.md",
     "考研/王道408/数据结构/6、图/3、图的基本操作.md",
@@ -228,7 +229,6 @@
     "考研/英语/tend trend.md",
     "考研/英语/spect.md",
     "考研/英语/quote cite reference：引用、提及相关词汇.md",
-    "考研/英语/press 词根.md",
     "考研/王道408/数据结构/5、树与二叉树/例题",
     "考研/王道408/数据结构/5、树与二叉树/6.并查集",
     "考研/王道408/数据结构/5、树与二叉树/5.哈夫曼树",
