@@ -81,7 +81,10 @@
     "preferredLocale": "zh-cn"
   },
   "buryDate": "2026-09-22",
-  "buryList": [],
+  "buryList": [
+    "13fa635e5e833a",
+    "1672501aed2437"
+  ],
   "historyDeck": null,
   "scheduleData": {
     "version": 1,

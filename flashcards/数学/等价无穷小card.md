@@ -128,7 +128,7 @@ $(1+x)^{\frac{1}{x}} - e \sim -\dfrac{e}{2}x,\quad x \to 0^+$
 3. 所以 $(1+x)^{\frac{1}{x}} = e^{1 - \frac{x}{2} + o(x)} = e \cdot e^{-\frac{x}{2} + o(x)}$
 4. 再用 $e^u = 1 + u + o(u)$ 展开：$e \cdot e^{-\frac{x}{2} + o(x)} = e\left[1 + \left(-\frac{x}{2} + o(x)\right) + o(x)\right] = e - \frac{e}{2}x + o(x)$
 5. 因此 $(1+x)^{\frac{1}{x}} - e = -\frac{e}{2}x + o(x) \sim -\frac{e}{2}x$
-<!--SR:!2026-09-22,1,130-->
+<!--SR:!2026-09-23,1,130-->
 
 求 $\lim\limits_{x \to 0}\dfrac{\ln(1+x) - \sin x}{x^2}$ 时，应该用什么方法？
 ?
