@@ -80,8 +80,19 @@
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
     "preferredLocale": "zh-cn"
   },
+<<<<<<< HEAD
   "buryDate": "2026-09-22",
   "buryList": [],
+=======
+  "buryDate": "2026-09-21",
+  "buryList": [
+    "15cd06532fecdb",
+    "13fa635e5e833a",
+    "1e8c6b5278a06a",
+    "10f85311c38b09",
+    "c74f9348e1dcb"
+  ],
+>>>>>>> eec004c (vault backup: DESKTOP-OS1QAKF 2026-09-21 22:05:18)
   "historyDeck": null,
   "scheduleData": {
     "version": 1,
